@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    margin-top: 80px;
+    width: 80%;
+    height: 600px;
+    display: inline-block;
+    margin-left: 200px;
+    /* background-color: aqua; */
+}
+/* T */
+
+
+.logo{
+    width: 41px;
+    height: 41px;
+    background-color: #458FF6;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-top:9px;
+    /* float: left; */
+}
+ h1{
+    display: inline-block;
+}
+.menu{
+    /* margin-left: 100px; */
+    display: inline-block;
+    margin-top: 40px;
+
+}
+.menu_list{
+    margin-bottom: 40px;
+    margin-left: 400px;
+    display: inline-block;
+}
+.menu_list_text{
+    font-size: 18px;
+    float: left;
+    list-style: none;
+    margin-left: 60px;
+}
+
+.header_title{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.title{
+width: 40%;
+display: inline-block;
+vertical-align: top;
+margin-top: 80px;
+}
+.title h2{
+font-size: 50px;
+}
+.title p{
+    margin-left: 0px;
+    font-size: 20px;
+font-family:serif ;
+}
+
+.title button {
+        background-color: #458FF6;
+        border: none;
+        font-size: 20px;
+        color: white;
+        border-radius: 55px;
+        padding: 20px 50px;
+        margin-top: 50px;
+}
+.image{
+    width: 59%;
+    display: inline-block;
+}
+.image img{
+    width: 600px;
+    height: 500px;
+}
+.both{
+    margin-bottom: 100px;
+}
+.service{
+    
+    margin-left: 200px;
+    width: 80%;
+    background-image: url(Vector.png);
+    background-size: 400px;
+    background-position: left;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position-x: -100px;
+    background-color: beige;
+}
+.our_services {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.service_box{
+    border-radius: 10px;
+    margin: 10px;
+    display: inline-block;
+    list-style: none;
+    width: 30%;
+    height: auto;
+    background-color: white;
+}
+.service_box h3 , p , img{
+    margin-top: 30px;
+    margin-left: 20px;
+}

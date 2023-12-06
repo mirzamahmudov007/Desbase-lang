@@ -1,0 +1,140 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+}
+
+li{
+    list-style:  none;
+}
+.nav_list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar_logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+width: 10%;
+background-color: orangered;
+}
+
+.navbar_logo img{
+    width: 65%;
+}
+.navbar_menu{
+width: 60%;
+}
+
+
+.navbar_search{
+width: 20%;
+display: flex;
+justify-content: end;
+}
+
+.navbar_search{
+/* background-color: aqua; */
+}
+
+.navbar_search img:nth-child(2){
+    background-color: orange;
+    padding: 5px;
+    margin-left: 20px;
+}
+.menu_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.menu_list_items{
+    font-size: 24px;
+    color: white;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.header_img{
+    width: 30%;
+}
+
+h2{
+    width: 20%;
+    color: wheat;
+    font-size: 70px;
+}
+
+h2:nth-child(1){
+    position: relative;
+    left: 100px;
+    top: 50px;
+    z-index: -1;
+    font-weight: 900;
+
+}
+
+h3{
+    display: block;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+    h3, p{
+        display: block;
+        color: white;
+        width: 100%;
+    }
+    .header_title{
+        width: 40%;
+        margin-left: 50px;
+    }
+
+    .eclips{
+        margin-left: -50px;
+        width: 300px;
+        height: 200px;
+        margin-bottom: 20px;
+        border: 5px solid red;
+    }
+
+    li:hover{
+        color: red;
+    }
+
+    .main{
+        width: 100%;
+    }
+
+    .main_list{
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main_list_item:first-child{
+        width: 50%;
+    }
+
+    .main_list_item:nth-child(2){
+        margin-left: 100px;
+        width: 30%;
+    }

@@ -1,0 +1,24 @@
+form{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+label , input{
+    display: inline-block;
+}
+ 
+input{
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.reset , .submit{
+    display: inline-block;
+    width: 100px;
+}
+.btn{
+    display: flex;
+    flex-wrap: wrap;
+}

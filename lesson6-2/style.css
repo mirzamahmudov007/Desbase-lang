@@ -1,0 +1,32 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.container{
+    height: 600px;
+    width: 80%;
+    margin:50px auto;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    background-color: black;
+}
+.item{
+    border-radius: 30px;
+    width: 20%;
+    height: 250px;
+    text-align: center;
+    list-style: none;
+    font-size: 50px;
+    font-weight: 1000;
+    background-color: red;
+}
+
+.item p{
+    margin-top: 100px;
+}
+
+

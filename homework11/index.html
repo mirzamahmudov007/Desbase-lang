@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>input</title>
+</head>
+<body>
+    <div class="container">
+        <h1>STUDENT REGISTRATION FORM</h1>
+
+    <form action="">
+        <ul class="form_list">
+            <li class="form_title">
+                <label for="name">FIRST NAME</label>
+                <label for="lname">LAST NAME</label>
+                <label for="brithday">DATE OF BIRTH</label>
+                <label for="email">EMAIL ID</label>
+                <label for="tel">MOBILE NUMBER</label>
+                <label for="gender">GENDER</label>
+                <label for="address" style="margin-bottom: 150px;">ADDRESS</label>
+                <label for="city">CITY</label>
+
+                <label for="pin">PIN CODE</label>
+                <label for="state">STATE</label>
+                <label for="country">COUNTRY</label>
+
+                <label for="hobbiy">HOBBIES</label>
+            </li>
+            <li class="form_input">
+                <input type="text" name="name" id="name">
+                <input type="text" name="last_name" id="lname">
+                <select name="Day" id="brithday">
+                    <option value="" selected>Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <select name="Month" id="brithday">
+                    <option value="" selected>Month</option>
+                    <option value="1">September</option>
+                    <option value="2">Octomber</option>
+                    <option value="3">November</option>
+                </select>
+                <select name="Year" id="brithday">
+                    <option value="" selected>Year</option>
+                    <option value="1">2021</option>
+                    <option value="2">2022</option>
+                    <option value="3">2023</option>
+                </select>
+                <input type="email" id="email">
+                <input type="number" value="" id="tel">
+               
+            <div class="gender">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" style="width: 20px; margin-left: 10px; margin-right: 20px;">
+                <label for="female">Female</label>
+                <input type="radio"name="gender" id="female"  style="width: 20px; margin-left: 10px; margin-right: 20px;"">
+            </div>
+            <textarea name="" id="address" cols="30" rows="10" ></textarea>
+            <input type="text" id="city" >
+
+            <input type="text" id="pin" >
+            <input type="text" id="state" >
+            <input type="text" id="country" >
+
+            <div class="gender">
+                <label for="">Drawing</label>
+                <input type="checkbox" name="hobbiy" id="hobbi" style="width: 20px; margin-left: 10px; margin-right: 20px;">
+                <label for="Singing">Singing</label>
+                <input type="checkbox" name="hobbiy" id="hobbi" style="width: 20px; margin-left: 10px; margin-right: 20px;">
+                <label for="">Dancing</label>
+                <input type="checkbox" name="hobbiy" id="hobbi" style="width: 20px; margin-left: 10px; margin-right: 20px;">
+                <label for="">Sketching</label>
+                <input type="checkbox" name="hobbiy" id="hobbi" style="width: 20px; margin-left: 10px; margin-right: 20px;">
+                <label for="">Others</label>
+                <input type="checkbox" name="hobbiy" id="hobbi" style="width: 20px; margin-left: 10px; margin-right: 20px;">
+                <input type="text" name="" id="" style="width: 200px; margin-left: 20px;">
+            </div>
+
+            </li>
+        </ul>
+    </form>
+    </div>
+</body>
+</html>
